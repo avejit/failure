@@ -1,0 +1,454 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ol, ul {
+    padding: 0rem!important;
+}
+
+.bar   {
+    width: 100%;
+    height: 15px;
+    background-image: linear-gradient(180deg, #1076BB, #0B4F7D);
+}
+.bar p{
+    text-align: center;
+    font-size: 11px;
+    color: #AFACAE;
+}
+.navbar {
+    box-shadow: -5px 13px 8px -10px grey;
+    border-bottom: 2px solid #D2D2D2;
+    height: 124px;
+}
+
+.navbar .left {
+    height: 150px;
+    width: 20%;
+    overflow: hidden;
+}
+
+.navbar .left img {
+    max-width: 100%;
+    margin-left: 15%;
+}
+.navbar .middle {
+    height: 150px;
+    width: 50%;
+
+}
+
+.navbar .middle .up {
+    height: 23%;
+    text-align: left;
+    border: 1px solid #F0F0F0;
+    margin-top: 10px;
+}
+
+.navbar .middle .up span {
+    color: #FBB145;
+    position: relative;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#slider {
+    width: 44%;
+    height: 100%;
+    margin: 0 auto;
+    border: 10px solid transparent;
+    padding: 0px;
+    z-index: 100;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    left: 32%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#slider > li {
+    width: 100%;
+    height: 25%;
+
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 15px;
+    font-size: initial;
+    line-height: normal;
+    transition: all 0.5s cubic-bezier(0.4, 1.3, 0.65, 1);
+    /* Slide css animation */
+    background-size: cover;
+    vertical-align: top;
+    box-sizing: border-box;
+    white-space: normal;
+}
+
+#slider > li > p {
+    color: #1077BC;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+
+.menu > ul {
+    list-style: none;
+    margin-top: 17px;
+        width: 100%;
+}
+
+.menu > ul > li {
+    display: inline-block;
+    margin-left: -6px;
+    position: relative;
+}
+
+.menu > ul > li > a {
+    display: inline-block;
+    text-decoration: none;
+    color: #1077BC;
+    padding: 7px 9px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.menu > ul > li:hover > a {
+    background-color: #1077BC;
+    color: white;
+}
+
+/* submenu start */
+
+.menu > ul > li > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    visibility: hidden;
+    width: 200px;
+    text-align: center;
+}
+
+.menu > ul > li > ul > li {
+    display: block;
+    margin-left: 0px;
+    border-left: none;
+    border-bottom: 1px solid white;
+    position: relative;
+
+}
+
+.menu > ul > li > ul > li:last-child {
+    border-right: none;
+}
+
+.menu > ul > li > ul > li > a {
+    display: block;
+}
+
+.menu > ul > li:hover > ul {
+    visibility: visible;
+}
+
+.menu > ul > li > ul > li > ul {
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    visibility: hidden;
+    width: 250px;
+}
+
+.menu > ul > li > ul > li > ul > li {
+
+    border: 1px solid black;
+}
+
+.menu > ul > li > ul > li:hover > ul {
+    visibility: visible;
+}
+
+/* sub menu end */
+
+/* menu end */
+
+
+
+.navbar .right {
+    width: 20%;
+    font-size: 17px;
+}
+
+.navbar .right h3{
+    font-size: 20px;
+}
+.navbar .right p span i{}
+.navbar .right p {
+        font-size: 35px;
+    margin-bottom: 30px;
+    color: #FBAF41;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.middle{
+    width: 100%;
+    height: 748px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+
+.footer{
+    width: 100%;
+    background-color: #1077BC;
+    clear: both;
+    height: 50px;
+    overflow: hidden;
+}
+
+.footer .one{
+    width: 16%;
+    float: left;
+    background-color:#1077BC;
+    
+}
+
+.one p {
+    color: white;
+    padding: 0px 25px;
+    margin-top: 11px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.footer .two{
+    width: 50%;
+    float: left;
+    background-color:#1077BC;
+    color: white;
+    height: 100%;
+    margin-top: 10px;
+}
+.two p{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.two .service{
+    background: #FBAF41;
+    padding: 2px 10px;
+    box-shadow:0px 1px 10px 2px #FBAF41;
+    margin-left: 10px;
+}
+
+
+
+.footer .three{
+    width: 20%;
+    float: left;
+    background-color:#1077BC;
+}
+
+.footer .three > ul {
+    list-style: none;
+    text-align: right;
+
+}
+
+.footer .three > ul > li {
+    display: inline-block;
+    
+}
+
+.footer .three > ul > li > a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #1082CE;
+    position: absolute;
+    bottom: 50px;
+    right: 0px;
+    width: 100%;
+}
+
+.topnav #myLinks {
+  display: none;
+    height: 250px;
+}
+
+.topnav > a {
+  color: white!important;
+  padding: 14px 16px;
+  text-decoration: none!important;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+    position: absolute;
+    bottom: 10px;
+    right: 65px;
+}
+.now{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    font-size: 20px;
+
+}
+
+.now:hover{
+    color: white;
+}
+
+
+.ak{
+    height: 100%;
+    width: 12%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 12px;
+    list-style: none!important;
+}
+
+.dui{
+    overflow: hidden;
+    width: 22%;
+    height: 100%;
+    float: left;
+}
+.dui h1{
+    color: white;
+    margin-left: 70px;
+    font-size: 26px;
+    margin-top: 25px;
+}
+.dui p{
+    color: white;
+    margin-left: 45px;
+}
+
+.tin{
+    overflow: hidden;
+    margin-left: 17px;
+    width: 23%;
+    float: left;
+    height: 280px;
+}
+.tin > h2 {
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    width: 100%;
+}
+.tin .scroll {
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+}
+.tin .scroll h2 {
+    color: white;
+    text-align: center;
+    font-size:18px;
+    margin-top: 10px;
+}
+.tin .scroll p {
+    color: white;
+    font-size: 14px;
+    text-align: justify;
+}
+
+
+
+.char {
+    width: 13%;
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.char h2{
+    color: white;
+    font-size: 18px;
+}
+.char p{
+    color: white;
+}
+
+.char > ul {
+    list-style: none;
+    text-align: left;
+
+}
+
+.char > ul > li {
+    display: inline-block;
+    
+}
+
+.char > ul > li > a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    margin-left: 6px;
+}
+
+
+.pach {
+    width: 10%;
+    float: left;
+    height: 100%;
+}
+
+.pach img{
+    margin-left: 80px;
+    margin-top: 80px;
+}
+}
